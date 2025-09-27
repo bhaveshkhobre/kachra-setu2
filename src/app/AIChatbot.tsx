@@ -38,7 +38,7 @@ const AIChatbot = () => {
   ];
 
   const callChatAPI = async (userMessage: string) => {
-    const API_BASE = 'https://kachra-setu.onrender.com';
+    const API_BASE = 'https://kachra-setu2-backend.onrender.com';
     try {
       const response = await fetch(`${API_BASE}/chat`, {
         method: 'POST',
