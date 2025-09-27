@@ -28,8 +28,8 @@ const Footer = () => {
             <img
               src="https://i.postimg.cc/5bLtNgb8/problem-Img.png"
               alt="Problem"
-              className="w-full h-auto rounded-2xl shadow-2xl object-cover"
-              style={{ minHeight: "600px", maxWidth: "1200px" }}
+              className="w-full h-auto rounded-2xl shadow-2xl md:object-cover object-contain md:min-h-[600px] md:max-w-[1200px]"
+              // style={{ minHeight: "600px", maxWidth: "1200px" }}
             />
           </div>
         </section>
@@ -45,8 +45,8 @@ const Footer = () => {
           <img
             src="https://i.postimg.cc/RVdhCCKN/solution-Img.jpg"
             alt="Solution"
-            className="w-full h-auto rounded-2xl shadow-2xl object-cover"
-            style={{ minHeight: "600px", maxWidth: "1200px" }}
+            className="w-full h-auto rounded-2xl shadow-2xl md:object-cover object-contain md:min-h-[600px] md:max-w-[1200px]"
+            // style={{ minHeight: "600px", maxWidth: "1200px" }}
           />
         </motion.div>
       </section>
